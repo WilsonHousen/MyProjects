@@ -7,6 +7,8 @@ import java.util.Comparator;
  *
  * @author wihousen
  */
+
+/*class for the account object*/
 public class Account {
 
     protected int balance;
@@ -35,9 +37,9 @@ public class Account {
         
     }
     
-    public void withdraw(int numb) {
+    public void withdraw(int num) {
         
-        this.setBalance(balance - numb); 
+        this.setBalance(balance - num); 
         
     }
     

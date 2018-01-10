@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package finalbankingapp;
 
 /**
@@ -17,6 +12,8 @@ public class CheckingAccount extends Account {
         
     }
     
+    /*withdrawing on a checkings acc comes with a 10 cent fee*/
+    @Override
     public void withdraw(int numr) {
         
         int fee = (int) 0.10;
